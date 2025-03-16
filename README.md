@@ -1,4 +1,4 @@
-# Net_Practice: Networking And System Administration Practice Project
+# Net_Practice: Networking And System Administration
 
 ## Summary
 Net_Practice is a system administration and networking exercise designed to help understand and configure small-scale networks providing hands-on experience with TCP/IP addressing principles and network troubleshooting through a browser-based training interface ensuring proper network connectivity. It's a practical exercise designed to introduce to networking concepts through a series of challenges where users will learn how to configure and troubleshoot networks in a simulated environment gaining valuable insights into **networking fundamentals, TCP/IP addressing, and system administration techniques**, helping build a strong foundation for real-world network management.
