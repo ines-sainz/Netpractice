@@ -13,6 +13,22 @@ Net_Practice is a system administration and networking exercise designed to help
 
 ---
 
+## Subnetting Table
+Common subnetting details:
+
+| CIDR Notation | Subnet Mask         | Network Splits | Total Hosts | Valid Hosts |
+|---------------|---------------------|----------------|-------------|-------------|
+| /30           | 255.255.255.252     | 64             | 4           | 2           |
+| /29           | 255.255.255.248     | 32             | 8           | 6           |
+| /28           | 255.255.255.240     | 16             | 16          | 14          |
+| /27           | 255.255.255.224     | 8              | 32          | 30          |
+| /26           | 255.255.255.192     | 4              | 64          | 62          |
+| /25           | 255.255.255.128     | 2              | 128         | 126         |
+| /24           | 255.255.255.0       | 1              | 256         | 254         |
+
+
+---
+
 ## Networking Concepts
 ### What is TCP/IP?
 TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of communication protocols used for networking. It includes:
@@ -53,18 +69,3 @@ TCP/IP operates on a layered model:
    - **IP address conflicts** occur when two devices share the same address.
    - **Incorrect subnet masks** can prevent communication between devices.
    - **Routing misconfigurations** lead to unreachable networks.
-
----
-
-## Subnetting Table
-This table provides common subnetting details:
-
-| CIDR Notation | Subnet Mask         | Network Splits | Total Hosts | Valid Hosts |
-|---------------|---------------------|----------------|-------------|-------------|
-| /30           | 255.255.255.252     | 64             | 4           | 2           |
-| /29           | 255.255.255.248     | 32             | 8           | 6           |
-| /28           | 255.255.255.240     | 16             | 16          | 14          |
-| /27           | 255.255.255.224     | 8              | 32          | 30          |
-| /26           | 255.255.255.192     | 4              | 64          | 62          |
-| /25           | 255.255.255.128     | 2              | 128         | 126         |
-| /24           | 255.255.255.0       | 1              | 256         | 254         |
